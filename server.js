@@ -10,6 +10,7 @@ var fccTestingRoutes  = require('./routes/fcctesting.js');
 var runner            = require('./test-runner');
 
 const helmet = require('helmet');
+require('dotenv').config()
 
 var app = express();
 

@@ -190,7 +190,7 @@ suite('Unit Tests', function(){
   
   suite('Function convertHandler.getString(initNum, initUnit, returnNum, returnUnit)', function() {
     test('Get string', function(done) {
-      let input = [3.1, 'miles', 5.00002, 'kilometers'];
+      let input = [3.1, 'mi', 5.00002, 'km'];
       let expected = '3.1 miles converts to 5.00002 kilometers';
       let result = convertHandler.getString(input[0], input[1], input[2], input[3]);
       assert.equal(convertHandler.getString(input[0], input[1], input[2], input[3]),expected);
